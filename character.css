@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100vw;
+  background-color: rgb(245, 244, 244);
+  min-height: 100vh;
+}
+.back__btn {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  max-width: 10vw;
+  font-size: 1.5vw;
+}
+.back__btn:hover {
+  color: rgb(182, 177, 177);
+}
+#character__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90vw;
+  margin-top: 10vh;
+}
+
+.characterInfo__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.characterInfo__span {
+  display: flex;
+  font-size: 18px;
+  margin: 5px 0;
+}
+.characterInfo__span-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.chracterEpisode__container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px 0;
+  width: 50vw;
+}
+
+.chracterEpisode__title {
+  margin-bottom: 10px;
+  text-align: start;
+  width: 100%;
+  display: flex;
+}
